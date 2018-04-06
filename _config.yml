@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: JuliaPolyhedra
-docurl: http://polyhedra.readthedocs.io
+docurl: https://juliapolyhedra.github.io/Polyhedra.jl/stable/index.html
 description: > # this means to ignore newlines until "baseurl:"
     JuliaPolyhedra is the Julia organization targeted to polyhedral computation.
     Its packages share a common interface defined in the <a href="https://github.com/JuliaPolyhedra/Polyhedra.jl">Polyhedra.jl</a> package.
