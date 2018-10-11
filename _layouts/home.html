@@ -10,13 +10,13 @@ layout: default
 
   <h2>List of libraries</h2>
   The following table provides a list of Polyhedra Manipulation Libraries.
-  When they have a Julia library implementing the interface of `Polyhedra.jl` then the "Julia Package" column shows the name of the package.
-  By convention, if the name of the package is `X`, the name of the libary is `X.Library`.
-  For instance, the CDD library can be created with `CDDLib.Library()`.
+  When they have a Julia library implementing the interface of <code>Polyhedra.jl</code> then the "Julia Package" column shows the name of the package.
+  By convention, if the name of the package is <code>X</code>, the name of the libary is <code>X.Library</code>.
+  For instance, the CDD library can be created with <code>CDDLib.Library()</code>.
   Some libraries have options such as the solver they use to solve linear programs or
   the arithmetic they use.
-  For instance, to use CDD with exact arithmetic, do `CDDLib.Library(:exact)`.
-  The call `CDDLib.Library()` is equivalent to `CDDLib.Library(:float)`.
+  For instance, to use CDD with exact arithmetic, do <code>CDDLib.Library(:exact)</code>.
+  The call <code>CDDLib.Library()</code> is equivalent to <code>CDDLib.Library(:float)</code>.
 
   {% capture libraries-table %}{% include libraries-table.md %}{% endcapture %}
   {{ libraries-table | markdownify }}
