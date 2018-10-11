@@ -9,6 +9,7 @@ layout: default
   <p>{{ site.description }}</p>
 
   <h2>List of libraries</h2>
+  <p>
   The following table provides a list of Polyhedra Manipulation Libraries.
   When they have a Julia library implementing the interface of <code>Polyhedra.jl</code> then the "Julia Package" column shows the name of the package.
   By convention, if the name of the package is <code>X</code>, the name of the libary is <code>X.Library</code>.
@@ -17,11 +18,14 @@ layout: default
   the arithmetic they use.
   For instance, to use CDD with exact arithmetic, do <code>CDDLib.Library(:exact)</code>.
   The call <code>CDDLib.Library()</code> is equivalent to <code>CDDLib.Library(:float)</code>.
+  </p>
 
   {% capture libraries-table %}{% include libraries-table.md %}{% endcapture %}
   {{ libraries-table | markdownify }}
 
+  <p>
   Please let me know if you plan to write a new wrapper (or an implementation in pure Julia).
   Since libraries use different algorithms, no library is better for every problem; <a href="http://cgm.cs.mcgill.ca/~avis/doc/avis/ABS96a.ps">here</a> and <a href="http://bugseng.com/products/ppl/performance">here</a> are comparisons.
+  </p>
 
 </div>
