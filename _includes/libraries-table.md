@@ -8,5 +8,5 @@
 | [NewPolka](http://pop-art.inrialpes.fr/people/bjeannet/newpolka/)     | None                                                             |  GPL    |        X       |                |
 | [Parma Polyhedra Library](http://bugseng.com/products/ppl/)           | None                                                             |  GPL    |        X       |                |
 | [pd](http://www.cs.unb.ca/~bremner/pd/)                               | None                                                             |  GPL    |        X       |                |
-| [porta](http://comopt.ifi.uni-heidelberg.de/software/PORTA/)          | None                                                             |  GPL    | X (overflow !) |                |
+| [porta](http://comopt.ifi.uni-heidelberg.de/software/PORTA/)          | [XPORTA.jl](https://github.com/JuliaPolyhedra/XPORTA.jl/)        |  GPL    | X (overflow !) |                |
 
